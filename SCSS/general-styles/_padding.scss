@@ -1,0 +1,50 @@
+/* Dynamic value */
+
+$pad-d-v: (
+  "pad-d-l-v": calc(2rem + 12vh),
+  "pad-d-mc-v": calc(1rem + 8vh),
+  "pad-d-m-v": calc(1rem + 6vh),
+  "pad-d-sc-v": calc(1rem + 4vh),
+  "pad-d-c-v": calc(1rem + 1vh),
+);
+
+@function padding-d-v($padd-dv) {
+  @return map-get($pad-d-v, $padd-dv);
+}
+
+$pad-d-h: (
+  "pad-d-l-h": calc(2rem + 12vw),
+  "pad-d-mc-h": calc(1rem + 8vw),
+  "pad-d-m-h": calc(1rem + 6vw),
+  "pad-d-sc-h": calc(1rem + 4vw),
+  "pad-d-s-h": calc(1rem + 2vw),
+  "pad-d-xs-h": calc(1rem + 1vw),
+);
+
+@function padding-d-h($padd-dh) {
+  @return map-get($pad-d-h, $padd-dh);
+}
+
+/* Static Value */
+$pad-st-v: (
+  "pad-st-xl-v": 4rem,
+  "pad-st-lc-v": 3rem,
+  "pad-st-l-v": 2rem,
+  "pad-st-m-v": 1.5rem,
+  "pad-st-s-v": 1rem,
+);
+
+@function padding-st-v($padd-stv) {
+  @return map-get($pad-st-h, $padd-stv);
+}
+
+$pad-st-h: (
+  "pad-st-l-h": 3rem,
+  "pad-st-m-h": 2.5rem,
+  "pad-st-s-h": 2rem,
+  "pad-st-xs-h": 1.5rem,
+);
+
+@function padding-st-h($padd-sth) {
+  @return map-get($pad-st-h, $padd-sth);
+} ;
