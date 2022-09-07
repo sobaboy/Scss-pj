@@ -1,9 +1,9 @@
 /* Group of color theme */
 $colors-theme: (
-  "color-theme-1": hsl(216 33% 97%),
-  "color-theme-2": hsl(327 97% 48%),
-  "color-theme-3": hsl(253 82% 42%),
-  "color-theme-4": hsl(0 0% 100%),
+  "1": hsl(216 33% 97%),
+  "2": hsl(327 97% 48%),
+  "3": hsl(253 82% 42%),
+  "4": hsl(0 0% 100%),
 );
 
 /* sass function */
@@ -11,17 +11,13 @@ $colors-theme: (
   @return map-get($colors-theme, $clr-theme);
 }
 
-h1 {
-  color: color-theme(color-theme-1);
-}
-
 $colors-type: (
-  "color-type-1": hsl(0 0% 100%),
-  "color-type-2": hsl(238 50% 13%),
-  "color-type-3": hsl(327 97% 48%),
-  "color-type-4": hsl(243 82% 42%),
-  "color-type-5": hsl(0 0% 45%),
-  "color-type-6": hsl(0 0% 96%),
+  "1": hsl(0 0% 100%),
+  "2": hsl(238 50% 13%),
+  "3": hsl(327 97% 48%),
+  "4": hsl(243 82% 42%),
+  "5": hsl(0 0% 45%),
+  "6": hsl(0 0% 96%),
 );
 
 @function color-type($clr-type) {
@@ -29,10 +25,10 @@ $colors-type: (
 }
 
 $colors-link: (
-  "color-link-1": hsl(0 0% 100%),
-  "color-link-2": hsl(327 97% 48%),
-  "color-link-3": hsl(253 82% 42%),
-  "color-link-4": hsl(238 50% 13%),
+  "1": hsl(0 0% 100%),
+  "2": hsl(327 97% 48%),
+  "3": hsl(253 82% 42%),
+  "4": hsl(238 50% 13%),
 );
 
 @function color-link() {
@@ -40,10 +36,10 @@ $colors-link: (
 }
 
 $colors-social: (
-  "color-social-1": hsl(221 44% 42%),
-  "color-social-2": hsl(206 82% 63%),
-  "color-social-3": hsl(201 100% 35%),
-  "color-social-4": hsl(329 100% 50%),
+  "facebook": hsl(221 44% 42%),
+  "twitter": hsl(206 82% 63%),
+  "linkedin": hsl(201 100% 35%),
+  "instagram": hsl(329 100% 50%),
 );
 
 @function color-social() {

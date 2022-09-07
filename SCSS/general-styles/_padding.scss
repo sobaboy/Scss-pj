@@ -1,11 +1,11 @@
 /* Dynamic value */
 
 $pad-d-v: (
-  "pad-d-l-v": calc(2rem + 12vh),
-  "pad-d-mc-v": calc(1rem + 8vh),
-  "pad-d-m-v": calc(1rem + 6vh),
-  "pad-d-sc-v": calc(1rem + 4vh),
-  "pad-d-c-v": calc(1rem + 1vh),
+  "l": calc(2rem + 12vh),
+  "mc": calc(1rem + 8vh),
+  "m": calc(1rem + 6vh),
+  "sc": calc(1rem + 4vh),
+  "c": calc(1rem + 1vh),
 );
 
 @function padding-d-v($padd-dv) {
@@ -13,12 +13,12 @@ $pad-d-v: (
 }
 
 $pad-d-h: (
-  "pad-d-l-h": calc(2rem + 12vw),
-  "pad-d-mc-h": calc(1rem + 8vw),
-  "pad-d-m-h": calc(1rem + 6vw),
-  "pad-d-sc-h": calc(1rem + 4vw),
-  "pad-d-s-h": calc(1rem + 2vw),
-  "pad-d-xs-h": calc(1rem + 1vw),
+  "l": calc(2rem + 12vw),
+  "mc": calc(1rem + 8vw),
+  "m": calc(1rem + 6vw),
+  "sc": calc(1rem + 4vw),
+  "s": calc(1rem + 2vw),
+  "xs": calc(1rem + 1vw),
 );
 
 @function padding-d-h($padd-dh) {
@@ -27,11 +27,11 @@ $pad-d-h: (
 
 /* Static Value */
 $pad-st-v: (
-  "pad-st-xl-v": 4rem,
-  "pad-st-lc-v": 3rem,
-  "pad-st-l-v": 2rem,
-  "pad-st-m-v": 1.5rem,
-  "pad-st-s-v": 1rem,
+  "xl": 4rem,
+  "lc": 3rem,
+  "l": 2rem,
+  "m": 1.5rem,
+  "s": 1rem,
 );
 
 @function padding-st-v($padd-stv) {
@@ -39,10 +39,10 @@ $pad-st-v: (
 }
 
 $pad-st-h: (
-  "pad-st-l-h": 3rem,
-  "pad-st-m-h": 2.5rem,
-  "pad-st-s-h": 2rem,
-  "pad-st-xs-h": 1.5rem,
+  "l": 3rem,
+  "m": 2.5rem,
+  "s": 2rem,
+  "xs": 1.5rem,
 );
 
 @function padding-st-h($padd-sth) {
